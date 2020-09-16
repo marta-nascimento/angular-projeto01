@@ -1,0 +1,6 @@
+<br><h2>Semestres</h2><br>
+<div *ngFor="let disciplina of list; index as i">
+  <a [routerLink] = "['/disciplina', i]">
+    {{disciplina.semestre}}
+  </a>
+</div>

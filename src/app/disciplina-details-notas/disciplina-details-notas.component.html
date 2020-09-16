@@ -1,0 +1,21 @@
+<br><h2>Detalhes da disciplina</h2><br>
+<a [routerLink]="['/disciplina']">Voltar</a><br><br>
+
+<table class="table">
+  <tr>
+    <th>Atributos</th>
+    <th>Dados</th>
+  </tr>
+  <tr>
+    <td>Dia</td>
+     <td>{{disciplina.dias["dia"+numero]}}</td>
+  </tr>
+  <tr>
+    <td>Horário</td>
+    <td>{{disciplina.horarios["horario"+numero]}}</td>
+  </tr>
+  <tr>
+    <td>Nota</td>
+    <td>{{disciplina.notas["nota"+numero]}}</td>
+  </tr>
+</table>
